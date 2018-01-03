@@ -1,0 +1,84 @@
+192.168.56.101/index.php
+192.168.56.101/phpmyadmin
+192.168.56.101/work/test2.php
+192.168.56.101/work/test2.php
+192.168.56.101/DB/create_table_parametrs_site.php
+192.168.56.101/DB/init_table_parameters_site.php
+http://qq/index.php
+192.168.56.101/test.php
+
+192.168.56.101/test.php
+
+http://test3/index.php
+
+http://tt/create_bd.php
+
+192.168.56.102/create_users_table.php
+
+http://tt/create_articles_table.php
+
+http://tt/create_tags_table.php
+
+http://tt/create_articles_tags_table.php
+192.168.56.102/create_articles_tags_table.php
+
+http://tt/del_table.php
+
+http://tt/del_articles_table.php
+
+http://tt/del_tags_table.php
+
+http://tt/del_articles_tags_table.php
+
+
+http://tt/del_bd.php
+
+http://tt/config.php
+192.168.56.102/config.php
+
+192.168.56.102/connect.php
+
+http://tt/create_tables.php
+
+http://tt/create_bd.php
+
+User not add to DB
+
+http://sk/index.php
+
+print_r($lan);
+
+vik19101958@yandex.ru
+
+var foo = {baz: "tubular", goo: "rad"}, bar = "baz";
+console.log("string",1,foo.goo,bar,foo.baz); // string 1 rad baz tubular
+
+How to Input into DB:
+http://localhost/Tools/phpmyadmin/index.php?db=skv_bd&token=f7dfe68245e22e46e9c3b543b676e54a
+
+192.168.56.102/phpmyadmin/index.php
+
+
+function addColor2(){
+  $("#b1").css("background", "blue");
+}
+
+document.f1.ht.value=htr;
+<input type="text" name="ht" width="50">
+
+https://laravel-news.com/laravel-forge-api
+
+
+System programs:
+System:
+Linux localhost.localdomain 3.10.0-514.21.1.el7.x86_64 #1 SMP Thu May 25 17:04:51 UTC 2017 x86_64
+Apache Version:
+Apache/2.4.6 (CentOS) PHP/7.1.5
+PHP Version:
+7.1.5
+pdo_mysql:
+mysqlnd 5.0.12-dev - 20150407 - $Id: b396954eeb2d1d9ed7902b8bae237b287f21ad9e $
+pdo_sqlite:
+SQLite Library: 3.7.17
+  
+

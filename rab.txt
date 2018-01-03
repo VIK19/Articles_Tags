@@ -1,0 +1,8 @@
+edit_data_form_a  current_article_id = 4
+edit_data_form_a  ar_tags_read = 888
+edit_data_form_a  php_Name_article = 4444
+edit_data_form_a  p_content_form_article = 44567 77888
+edit_data_form_a  p_tags_form_article[0] = 888
+edit_data_form_a  p_tags_form_article[1] = 
+edit_data_form_a  sql = UPDATE articles_table SET article_name='4444', article_content='44567 77888', article_URL='', article_data='12.09.2017 08:33:21' WHERE article_id='4'
+edit_data_form_a  data_reg2 = 12.09.2017 08:33:21

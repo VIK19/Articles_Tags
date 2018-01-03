@@ -1,0 +1,104 @@
+﻿Programs of Site "Articles Catalog"
+
+index.php - main program
+
+  /txt/ang.ini - ang. lang
+  /txt/rus.ini - rus. lang
+  forma_lang.php - set lang
+ 
+  contant_main(str)  content_main.php - main program - autor. and registr.
+    Re_password() recovery_password.php - recovery password
+        out_autoriz_err() - hidden author, login1, content_left
+        form_email_rec() - nothing
+        in_email_rec()  recovery_password2.php - Input for recovery password
+        out3_autoriz_err() - hidden author, login1, content_left, messages_err
+    in_autoriz()  authoriz.php - Autorization of user
+        out_autoriz_ok()  - hidden author, login1, content_left   (1206)
+    visibl_form_reg() - - hidden form_registr, out_messages
+    out_messages1()   - hidden author, login1, content_left
+        out_form()  form_processing.php  -  Registration of new user
+            out2_form()  - hidden form_registr,out_messages
+ 	
+	out_autoriz_ok() - out autoriz; hidden author, login1, content_left   (1206)
+	    all_pages()  all_pages.php - creating variable $_SESSION['all_pages']
+	    thirst_page()  thirst_page.php - go to thirst page   (521)
+	    ajax_list_page() ajax_list_page.php - creating pages list   (506)
+	    ajax_list_tags()  ajax_list_tags.php - creating tags list   (376)
+	
+	    #button_prev_page - previous page of articles  (239)
+	        ajax_prev_article() prev_page.php -  reading previous page
+            ajax_list_page()  ajax_list_page.php - creating pages list   (506)
+            select_page2() select_page2.php - rewrite list pages list with selected curent page (635)
+		
+	    #button_next_page - next page of articles  (230)
+	        next_page()  next_page.php - go to next page   (521)
+	        select_page()  select_page.php  - read selected page number and goto selected page  (466)
+	
+	    #button_article_search - searching next article and page with this tag    (420)
+            next_page_next_article() search_page.php - search next article with this tag
+			ajax_list_page()  ajax_list_page.php - creating pages list   (506)
+			select_page2() select_page2.php - rewrite list pages list with selected curent page (635)	
+			
+	    select_page()  select_page.php  - read selected page number and goto selected page  (466)
+	    StatusSearch() search_page.php  -  searching 1th article and page with this tag    (697)
+	    next_page_article() search_page.php  -  searching next article and page with this tag    (420)
+	    ajax_select_page()  select_page.php  - select page with this tag (291)
+		
+		article_add()  article_form.php -  forma to add new article
+            save_tag()  save_new_tag.php - add tag
+            edit_tag() edit_new_tag.php - edit new tag
+            save_edit_tag()  save_edit_new_tag - save editing new tag
+            del_tag() delete_new_tag.php - delete new tag        
+            add_data_form_a()  add_data_form_a.php - saving form for new Article
+                ok_err_no_name_a()  ok_err_no_name_a.php - OK for error - no name of Article in form
+                ok_err_no_content_a()  ok_err_no_content_a.php - OK for error - no content of Article in form
+		
+		#button_article_edit
+		    all_pages_read()  all_pages_read.php  - defenition of  pages number of content of selected article
+			button_article_edit2() button_article_edit.php - editing form of selected article
+			    edit_data_form_a() edit_data_form_a.php - save edited form of selected article
+				cancel_form_a() cancel_form_a.php - cancel work in editing form
+	
+	    f_read_page()  f_read_page.php - choose row of articles table
+	
+	    #read_page  - push button - reading content of selected article  (253)
+	        all_pages_read();   all_pages_read.php - creating variable $_SESSION['max_rows_page_read']  (594)
+	        ajax_list_page_read() ajax_list_page_read.php - creating pages list for reading the article  (639)
+	        ajax_read_page('1') read_page.php - reading 1th page of selected article  (493)
+			   select_page2_read() select_page2_read.php - rewrite list pages list with selected curent page for reading selected article
+	        ajax_list_tag_read()  ajax_list_tag_read.php - creating tags list for reading the article   ()
+        
+        article_del()  article_del.php - delete article        
+		
+	    select_page_read()  select_page_read.php - reading the selected page of the selected article
+	   
+	        StatusSearch_read() search_page_read.php - defenition of page for reading using selected tag  (578)
+	
+	        #button_article_search_read"
+	        next_page_next_article_read() search_page_read.php - search next tag position in this article
+		  
+	        #button_prev_page_read
+	            ajax_read_page('-1')  read_page.php - reading previous page of selected article  (493)
+                select_page2_read() select_page2_read.php //rewrite list pages list with selected curent page for reading selected article	  
+		  
+	        #button_next_page_read
+	            ajax_read_page('2')  read_page.php - reading next page of selected article  (493)
+	            select_page2_read() select_page2_read.php //rewrite list pages list with selected curent page for reading selected articl
+	 
+	        #button_article_edit
+	            all_pages_read() all_pages_read.php //defenition of  pages number of content of selected article
+		        button_article_edit()  button_article_edit.php - editing form of selected article	
+		        save_tag()  save_new_tag.php - add tag
+				ok_err_no_name_a() ok_err_no_name_a.php
+		        edit_data_form_a()  edit_data_form_a.php - save edited article
+			
+	 
+	        back_menu_article()  back_menu_article().php  //back to articles table from reading the article
+	            tags_list_edit()   tags_list_edit.php  -  creating tags list editing article
+		        edit_data_form_a()  edit_data_form_a.php - save edited articl
+
+
+
+  /js/site_js_librery.js - js librery of the site 
+  site_php_librery.php - php librery of the site
+  /html/site_html_librery.php - html librery of the site
